@@ -4,7 +4,7 @@
 # Created by Sergei Panarin, software engineer, author of The $100K Engineer blog
 # http://the100kengineer.substack.com/?utm_source=github&utm_medium=snippets
 
-# TOC:
+# TABLE OF CONTENTS (TOC):
 # 1. BASICS
 # 2. LOOPS
 # 3. LIST PROCESSING
