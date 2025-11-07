@@ -114,6 +114,7 @@ def product(acc: int, item: int) -> int:
   return acc * item
 print(reduce(product, a)) # 3628800 (1*2*3*4*5*6*7*8*9*10)
 print(reduce(lambda acc, item: acc + item, a)) # 55 (1+2+3+4+5+6+7+8+9+10)
+print(reduce(lambda acc, item: acc + item, a, 11)) # 66 (11 + 1+2+3+4+5+6+7+8+9+10), initialize acc with 11
 
 # comprehensions
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
