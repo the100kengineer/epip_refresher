@@ -157,7 +157,7 @@ points.sort(key=lambda point: point.x**2 + point.y**2) # [Point(x=0, y=4), Point
 print(min(points, key=lambda p: p.x)) # Point(x=0, y=4)
 print(max(points, key=lambda p: -p.y)) # Point(x=1, y=2)
 
-# sort
+# sort (with lambda function)
 c = [(10, 'a'), (4, 'b'), (3, 'c'), (2, 'd')]
 print(c) # [(10, 'a'), (4, 'b'), (3, 'c'), (2, 'd')]
 c.sort(key=lambda p: p[0])
