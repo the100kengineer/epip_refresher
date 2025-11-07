@@ -42,6 +42,11 @@ print(max(a)) # 10
 f = lambda arg1, arg2: arg1 * arg2
 print(f(2, 3)) # 6
 
+# 1.5 TERNARY OPERATOR (like in JavaScript "condition ? value_if_true : value_if_false")
+n = 3
+res = "Even" if n % 2 == 0 else "Odd"
+print(res) # "Odd"
+
 # 2. LOOPS (lists, dictionaries, sets)
 print('-'*30, 'LOOPS', '-'*30)
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
