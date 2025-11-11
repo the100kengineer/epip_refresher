@@ -26,6 +26,13 @@ a, b, c = [1, 2, 3] # a=1, b=2, c=3
 # dictionary unpacking
 d = {'a': 1, 'b': 2, 'c': 3}
 a, b, c = d.values() # a=1, b=2, c=3
+# strings slicing [start:end(not included):step]
+s = 'abc'
+print(s[0:1]) # 'a'
+print(s[:1]) # 'a'
+print(s[-1]) # 'c'
+print(s[:-1]) # 'ab'
+print(s[::-1]) # 'cba'
 
 # 1.2 ARITHMETIC
 print(10 / 3) # 3.3333333333333335 - true division

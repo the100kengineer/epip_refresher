@@ -4,7 +4,7 @@
 
 1. **Basics**
 
-    *1.1 Shortcuts* (values swap, tuple/list/dictionary unpacking)
+    *1.1 Shortcuts* (values swap, tuple/list/dictionary unpacking, strings slicing)
 
     *1.2 Arithmetic* (integer division, modulus, exponentiation)
 
