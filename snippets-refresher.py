@@ -38,6 +38,7 @@ print(s[::-1]) # 'cba'
 print(10 / 3) # 3.3333333333333335 - true division
 print(10 // 3) # 3 - floor division (integer division)
 print(10 % 3) # 1 - modulus (the remainder of the division)
+print(divmod(10, 3)) # returns tuple containing the quotient and the remainder (3, 1)
 print(10 ** 3) # 1000 - exponentiation
 
 # 1.3 MIN/MAX
